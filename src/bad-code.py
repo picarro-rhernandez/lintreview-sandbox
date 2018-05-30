@@ -632,6 +632,6 @@ def create(path,archiveList,xFilesFactor=None,aggregationMethod=None,sparse=Fals
     if AUTOFLUSH:
       fh.flush()
       os.fsync(fh.fileno())
-  finally:
-    if fh:
-      fh.close()
+
+
+
