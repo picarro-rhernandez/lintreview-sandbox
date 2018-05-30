@@ -42,7 +42,7 @@ popfile = sys.argv[1];      del sys.argv[1]
 ###-----------------options-------------------------###
 
 """p = permutations for confidence intervals, d1 and d2 are range for number of 
-species for funnel plot. parameter: m = AvTD, v = VarTD, e = euler, b = AvTD and VarTd. 
+species for funnel plot. Parameter: m = AvTD, v = VarTD, e = euler, b = AvTD and VarTd. 
 ci = confidence intervals b = batch file. l = user-defined path lengths
 """
 
