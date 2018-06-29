@@ -633,5 +633,31 @@ def create(path,archiveList,xFilesFactor=None,aggregationMethod=None,sparse=Fals
       fh.flush()
       os.fsync(fh.fileno())
 
+# Good:
+spam(ham[1], {eggs: 2})
+if x == 4:
+    print x, y
+    x, y = y, x
+dict['key'] = list[index]
+y = 2
+long_variable = 3
+hypot2 = x*x + y*y
+c = (a+b) * (a-b)
+def complex(real, imag=0.0):
+    return magic(r=real, i=imag)
+do_one()
+do_two()
+
+# Bad
+spam ( ham[ 1 ], { eggs: 2 } ) # spaces inside brackets
+if x == 4 : print x , y ; x , y = y , x # inline statements, space before commas
+dict ['key'] = list [index] # space before dictionary key
+y             = 2 # Using spaces to line up assignment operators
+long_variable = 3
+hypot2 = x * x + y * y # Too much space around operators
+c = (a + b) * (a - b) # Too much space around operators
+def complex(real, imag = 0.0):
+    return magic(r = real, i = imag) # Spaces in default values
+
 
 
